@@ -53,7 +53,7 @@ https://github.com/TheHellSite/proxmox_tutorials/tree/main/lxc_gpu_passthrough
 
 **Intel specific dependencies**  
 `intel-media-driver`: Intel VAAPI support (Broadwell and newer)  
-`libva-intel-driver`: Intel legacy VAAPI support (10th Gen and older)  
+`libva-intel-driver`: Intel legacy VAAPI support (10th Gen and older)  - sudo apt install intel-media-va-driver-non-free   (HAS TO BE NON FREE, free will not encode)
 `intel-media-sdk`: Intel Quick Sync Video  
 `onevpl-intel-gpu`: Intel Quick Sync Video (12th Gen and newer)  
 `intel-compute-runtime`: Intel OpenCL runtime based Tonemapping  
